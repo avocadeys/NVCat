@@ -20,22 +20,18 @@ return {
       no_italic = false,
       no_bold = false,
       styles = {
-        comments = {
-          "italic"
-        },
-        conditionals = {
-          "italic"
-        },
-        loops = {},
-        functions = {},
-        keywords = {},
-        strings = {},
-        variables = {},
-        numbers = {},
-        booleans = {},
-        properties = {},
-        types = {},
-        operators = {},
+        comments = {},
+			  properties = { "italic" },
+			  functions = { "bold" },
+			  keywords = { "italic" },
+			  operators = { "bold" },
+			  conditionals = { "bold" },
+			  loops = { "bold" },
+			  booleans = { "bold", "italic" },
+			  numbers = {},
+			  types = {},
+			  strings = {},
+			  variables = {},
       },
       color_overrides = {
         mocha = {
