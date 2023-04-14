@@ -1,10 +1,7 @@
 <h1 align="center">
-NVCat<a href
+NVCat
 </h1>
 
-<h6 align="center">
-  <a href="#installation">Install</a>
-</h6>
 
 <p align="center">
 <a href="https://github.com/avocadeys/NVCat/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/avocadeys/NVCat?colorA=363a4f&colorB=f5e0dc&logo=github&style=for-the-badge"></a>
@@ -31,7 +28,7 @@ NVCat is my personal neovim configuration written in lua with minimal configurat
 # Installation 
 
 
-> **Note**
+> **Note:**
 > before you clone this repository, please backup your current neovim configuration if you don't want to lose it.
 
 backup your current nvim folder 
@@ -53,6 +50,6 @@ nvim
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 ```
-> **Note**
+> **Note:**
 >  if you plan to use this configuration, just an important note, i'm still configuring it so expect some changes, but the appearance will remain.
  
