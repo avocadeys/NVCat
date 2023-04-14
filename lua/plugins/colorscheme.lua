@@ -44,7 +44,7 @@ return {
         gitsigns = true,
         nvimtree = true,
         telescope = true,
-        notify = false,
+        notify = true,
         mini = false,
       },
     })
