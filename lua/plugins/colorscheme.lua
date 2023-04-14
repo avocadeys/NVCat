@@ -46,6 +46,9 @@ return {
       },
       custom_highlights = {},
       integrations = {
+        indent_blankline = { enabled = true, colored_indent_levels = false },
+        nvimtree = true,
+        which_key = true,
         cmp = true,
         gitsigns = true,
         nvimtree = true,
