@@ -51,9 +51,7 @@ return {
           'filename'
         },
         lualine_x = {
-          'encoding', 'fileformat', {
-            'filetype', icon_only = true
-          }
+          'encoding', 'fileformat',
         },
         lualine_y = {
           'diagnostics'
