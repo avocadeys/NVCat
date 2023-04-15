@@ -4,6 +4,7 @@ return {
   event = {
     "BufReadPost", "BufNewFile"
   },
+  dependencies = { "mrjones2014/nvim-ts-rainbow" },
   cmd = {
     "TSInstall",
     "TSInstallInfo",
@@ -39,6 +40,12 @@ return {
     indent = {
       enable = false,
       disable = {}
+    },
+    rainbow = {
+    enable = true,
+    disable = {}, -- list of languages you want to disable the plugin for
+    extended_mode = true, -- also highlight non-bracket delimiters like html tags, boolean or table: lang -> boolean
+    max_file_lines = nil,
     },
   }
   end
