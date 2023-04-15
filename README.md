@@ -18,7 +18,7 @@ NVCat is my personal neovim configuration written in lua with minimal configurat
 
 # Requirements 
 
-> **Note:**
+> **Note**:
 >  if you plan to use this configuration, just an important note, i'm still configuring it so expect some changes.
 
 - neovim v0.8+
@@ -29,7 +29,7 @@ NVCat is my personal neovim configuration written in lua with minimal configurat
 
 # Installation 
 
-> **Note:**
+> **Note**:
 > before you clone this repository, please backup your current neovim configuration if you don't want to lose it.
 
 backup your current nvim folder 
