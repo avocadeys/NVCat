@@ -135,6 +135,21 @@ return {
 		},
       custom_highlights = {},
       integrations = {
+        native_lsp = {
+          enabled = true,
+          virtual_text = {
+            errors = {},
+            hints = {},
+            warnings = {},
+            information = {},
+          },
+          underlines = {
+            errors = { "undercurl" },
+            hints = { "undercurl" },
+            warnings = { "undercurl" },
+            information = { "undercurl" },
+          },
+        },
         indent_blankline = { enabled = true, colored_indent_levels = false },
         nvimtree = true,
         which_key = true,
