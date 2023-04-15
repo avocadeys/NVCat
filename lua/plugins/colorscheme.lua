@@ -150,6 +150,11 @@ return {
             information = { "undercurl" },
           },
         },
+        barbecue = {
+          dim_dirname = true,
+          bold_basename = true,
+          dim_context = false,
+        },
         indent_blankline = { enabled = true, colored_indent_levels = false },
         nvimtree = true,
         which_key = true,
