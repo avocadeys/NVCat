@@ -21,13 +21,13 @@ return {
       no_bold = false,
       styles = {
         comments = {},
-			  properties = { "italic" },
+			  properties = {},
 			  functions = { "bold" },
-			  keywords = { "italic" },
+			  keywords = {},
 			  operators = { "bold" },
 			  conditionals = { "bold" },
 			  loops = { "bold" },
-			  booleans = { "bold", "italic" },
+			  booleans = { "bold" },
 			  numbers = {},
 			  types = {},
 			  strings = {},
@@ -67,7 +67,7 @@ return {
       highlight_overrides = {
 			mocha = function(cp)
 				return {
-					-- For base configs.
+					-- for base configs.
 					NormalFloat = { fg = cp.text, bg = transparent_background and cp.none or cp.base },
 					CursorLineNr = { fg = cp.green },
 					Search = { bg = cp.surface1, fg = cp.pink, style = { "bold" } },
@@ -77,7 +77,7 @@ return {
 					Typedef = { fg = cp.yellow },
 					StorageClass = { fg = cp.red, style = { "italic" } },
 
-					-- For native lsp configs.
+					-- for native lsp configs.
 					DiagnosticVirtualTextError = { bg = cp.none },
 					DiagnosticVirtualTextWarn = { bg = cp.none },
 					DiagnosticVirtualTextInfo = { bg = cp.none },
@@ -89,7 +89,7 @@ return {
 					LspDiagnosticsVirtualTextHint = { fg = cp.rosewater },
 					LspDiagnosticsUnderlineHint = { sp = cp.rosewater },
 
-					-- For trouble.nvim
+					-- for trouble.nvim
 					TroubleNormal = { bg = cp.base },
 
 					-- For treesitter.
