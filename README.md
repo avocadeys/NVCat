@@ -2,7 +2,6 @@
 NVCat
 </h1>
 
-
 <p align="center">
 <a href="https://github.com/avocadeys/NVCat/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/avocadeys/NVCat?colorA=363a4f&colorB=f5e0dc&logo=git&logoColor=e0e0e0&style=for-the-badge"></a>
 <a href="https://github.com/avocadeys/NVCat/stargazers"><img alt="Stargazers" src="https://img.shields.io/github/stars/avocadeys/NVCat?colorA=363a4f&colorB=eba0ac&logo=apachespark&logoColor=e0e0e0&style=for-the-badge"></a>
@@ -19,6 +18,9 @@ NVCat is my personal neovim configuration written in lua with minimal configurat
 
 # Requirements 
 
+> **Note:**
+>  if you plan to use this configuration, just an important note, i'm still configuring it so expect some changes.
+
 - neovim v0.8+
 - have `git` installed in your system
 - nerd fonts
@@ -26,7 +28,6 @@ NVCat is my personal neovim configuration written in lua with minimal configurat
 - and of course, experience with lua and neovim 
 
 # Installation 
-
 
 > **Note:**
 > before you clone this repository, please backup your current neovim configuration if you don't want to lose it.
@@ -50,6 +51,3 @@ nvim
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 ```
-> **Note:**
->  if you plan to use this configuration, just an important note, i'm still configuring it so expect some changes, but the appearance will remain.
- 
