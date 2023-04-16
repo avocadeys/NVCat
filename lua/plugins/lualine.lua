@@ -51,7 +51,10 @@ return {
           }
         },
         lualine_c = {
-          'diagnostics',
+          {
+            'diagnostics',
+            update_in_insert = true,
+          },
         },
         lualine_x = {
           'encoding', 'fileformat',
