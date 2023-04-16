@@ -4,7 +4,8 @@ return {
     lazy = true,
 	  event = { "BufReadPost", "BufAdd", "BufNewFile" },
     dependencies = {
-      'nvim-tree/nvim-web-devicons', opt = true
+      { 'nvim-tree/nvim-web-devicons', opt = true },
+      "meuter/lualine-so-fancy.nvim",
     },
 
     opts = {
@@ -50,20 +51,20 @@ return {
           }
         },
         lualine_c = {
-          'filename'
+          'diagnostics',
         },
         lualine_x = {
           'encoding', 'fileformat',
         },
         lualine_y = {
-          'diagnostics'
+          { 'fancy_lsp_servers', icon = "󰅡", separator = "·" },
         },
         lualine_z = {
           'progress',
           {
             'location', separator = {
               right = ''
-            }, left_padding = 1
+            },
           },
         }
       },
