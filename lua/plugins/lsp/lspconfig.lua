@@ -3,6 +3,7 @@ lspconfig.pyright.setup {}
 lspconfig.tsserver.setup {}
 lspconfig.html.setup {}
 lspconfig.emmet_ls.setup {}
+lspconfig.gopls.setup{}
 
 vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
