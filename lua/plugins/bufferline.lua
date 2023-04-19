@@ -2,7 +2,9 @@ return {
   {
     'akinsho/bufferline.nvim',
     lazy = true,
-    event = { "BufReadPost", "BufAdd", "BufNewFile" },
+    event = {
+      "BufReadPost", "BufAdd", "BufNewFile"
+    },
     version = "v3.*",
     dependencies = 'nvim-tree/nvim-web-devicons',
 
@@ -10,6 +12,13 @@ return {
     vim.opt.termguicolors = true
     require("bufferline").setup {
       options = {
+        indicator = {
+          icon = " "
+        },
+        separator_style = {
+          "", ""
+        },
+        sort_by = "insert_at_end",
         offsets = {
           {
             filetype = "NvimTree",
@@ -18,7 +27,12 @@ return {
             separator = false -- use a "true" to enable the def
           }
         },
-      }
+      },
+      highlights = {
+        buffer_selected = {
+          italic = false, bold = false
+        }
+      },
     }
     end
   }
