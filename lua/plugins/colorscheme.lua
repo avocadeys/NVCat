@@ -58,10 +58,6 @@ return {
 				  surface2 = "#6E6C7E",
 				  surface1 = "#575268",
 				  surface0 = "#302D41",
-				
-          base = "#000000",
-          mantle = "#000000",
-          crust = "#000000",
         },
       },
       highlight_overrides = {
