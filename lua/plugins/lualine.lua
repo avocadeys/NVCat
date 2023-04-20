@@ -39,12 +39,9 @@ return {
         lualine_a = {
           {
             'mode',
-            fmt = function()
-              return "󰀘 "
-            end,
-            separator = {
-              left = '', right = ''
-            },
+            -- fmt = function()
+            --  return "󰀘 "
+            -- end,
             separator = {
               left = '', right = ''
             },
