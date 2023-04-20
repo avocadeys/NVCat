@@ -2,9 +2,13 @@ return {
   {
     'nvim-lualine/lualine.nvim',
     lazy = true,
-	  event = { "BufReadPost", "BufAdd", "BufNewFile" },
+    event = {
+      "BufReadPost", "BufAdd", "BufNewFile"
+    },
     dependencies = {
-      { 'nvim-tree/nvim-web-devicons', opt = true },
+      {
+        'nvim-tree/nvim-web-devicons', opt = true
+      },
       'avocadeys/nvim-lualine-components',
     },
 
@@ -34,7 +38,14 @@ return {
       sections = {
         lualine_a = {
           {
-            'mode', separator = {
+            'mode',
+            fmt = function()
+              return "󰀘 "
+            end,
+            separator = {
+              left = '', right = ''
+            },
+            separator = {
               left = '', right = ''
             },
           },
@@ -60,7 +71,9 @@ return {
           'encoding', 'fileformat',
         },
         lualine_y = {
-          { 'lsp_servers' },
+          {
+            'lsp_servers'
+          },
         },
         lualine_z = {
           'progress',
