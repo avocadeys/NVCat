@@ -18,7 +18,7 @@ return {
         basename = "",
       },
       show_dirname = false,
-      show_basename = true,
+      show_basename = false,
       show_modified = false,
       modified = function(bufnr) return vim.bo[bufnr].modified end,
       show_navic = true,
