@@ -1,9 +1,18 @@
 local lspconfig = require('lspconfig')
-lspconfig.pyright.setup {}
-lspconfig.tsserver.setup {}
-lspconfig.html.setup {}
-lspconfig.emmet_ls.setup {}
-lspconfig.gopls.setup{}
+local servers = {
+  'pyright',
+  'tsserver',
+  'html',
+  'emmet_ls',
+  'gopls',
+}
+
+for _, lsp in ipairs(servers) do
+  lspconfig[lsp].setup {
+    on_attach = on_attach,
+    capabilities = capabilities,
+  }
+end
 
 vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
