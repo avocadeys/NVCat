@@ -3,6 +3,7 @@ local servers = {
   'pyright',
   'tsserver',
   'html',
+  'cssls',
   'emmet_ls',
   'gopls',
 }
