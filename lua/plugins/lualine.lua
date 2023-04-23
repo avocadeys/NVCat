@@ -18,7 +18,7 @@ return {
         theme = 'catppuccin',
         component_separators = "",
         section_separators = {
-          left = '', right = ''
+          left = '', right = ''
         },
         disabled_filetypes = {
           statusline = {
@@ -39,12 +39,9 @@ return {
         lualine_a = {
           {
             'mode',
-            -- fmt = function()
-            --  return "󰀘 "
-            -- end,
-            separator = {
-              left = '', right = ''
-            },
+-- fmt = function()
+--  return "󰀘 "
+-- end,
           },
         },
         lualine_b = {
@@ -73,32 +70,27 @@ return {
           },
         },
         lualine_z = {
-          'progress',
-          {
-            'location', separator = {
-              right = ''
-            },
-          },
-        }
-      },
-      inactive_sections = {
-        lualine_a = {},
-        lualine_b = {},
-        lualine_c = {
-          'filename'
+          'progress', 'location'
         },
-        lualine_x = {
-          'location'
-        },
-        lualine_y = {},
-        lualine_z = {}
-      },
-      tabline = {},
-      winbar = {},
-      inactive_winbar = {},
-      extensions = {
-        "nvim-tree"
       }
+    },
+    inactive_sections = {
+      lualine_a = {},
+      lualine_b = {},
+      lualine_c = {
+        'filename'
+      },
+      lualine_x = {
+        'location'
+      },
+      lualine_y = {},
+      lualine_z = {}
+    },
+    tabline = {},
+    winbar = {},
+    inactive_winbar = {},
+    extensions = {
+      "nvim-tree"
     }
   }
 }
