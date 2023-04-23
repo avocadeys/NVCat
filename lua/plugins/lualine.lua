@@ -39,9 +39,9 @@ return {
         lualine_a = {
           {
             'mode',
--- fmt = function()
---  return "󰀘 "
--- end,
+            fmt = function()
+              return "󰀘"
+            end,
           },
         },
         lualine_b = {
@@ -60,15 +60,12 @@ return {
             'diagnostics',
             update_in_insert = true,
           },
+          'lsp_progress',
         },
         lualine_x = {
-          'encoding', 'fileformat',
+          'encoding', 'lsp_servers'
         },
-        lualine_y = {
-          {
-            'lsp_servers'
-          },
-        },
+        lualine_y = {},
         lualine_z = {
           'progress', 'location'
         },
