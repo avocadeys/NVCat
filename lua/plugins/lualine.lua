@@ -47,20 +47,19 @@ return {
         lualine_b = {
           {
             'branch', icon = '󰘬',
-          },
-          {
-            'diff',
-            symbols = {
-              added = ' ', modified = ' ', removed = ' '
-            },
           }
         },
         lualine_c = {
           {
+            'diff',
+            symbols = {
+              added = ' ', modified = ' ', removed = ' '
+            }
+          },
+          {
             'diagnostics',
             update_in_insert = true,
           },
-          'lsp_progress',
         },
         lualine_x = {
           'encoding', 'lsp_servers'
