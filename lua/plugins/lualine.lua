@@ -44,12 +44,11 @@ return {
             end,
           },
         },
-        lualine_b = {
+        lualine_b = {},
+        lualine_c = {
           {
             'branch', icon = '',
-          }
-        },
-        lualine_c = {
+          },
           {
             'diff',
             symbols = {
