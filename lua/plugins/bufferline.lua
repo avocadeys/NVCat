@@ -18,6 +18,7 @@ return {
         separator_style = {
           "", ""
         },
+        always_show_bufferline = true,
         sort_by = "insert_at_end",
         offsets = {
           {
@@ -31,7 +32,10 @@ return {
       highlights = {
         buffer_selected = {
           italic = false, bold = false
-        }
+        },
+        fill = {
+          bg = "#1E1E2E",
+        },
       },
     }
     end
