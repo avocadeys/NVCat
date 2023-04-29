@@ -19,7 +19,7 @@ lualine.setup {
     lualine_b = {},
     lualine_c = {
       {
-        "branch", icon = "",
+        "branch", icon = " ",
       },
       {
         "diff",
@@ -31,7 +31,7 @@ lualine.setup {
         "diagnostics",
         update_in_insert = true,
       },
-      "lsp_servers",
+      components.lsp,
     },
     lualine_x = {
       components.location, components.spaces, "encoding", components.filetype,
