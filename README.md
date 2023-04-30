@@ -53,5 +53,5 @@ rm -rf ~/.local/share/nvim
 ```
 
 <p align="center">
-<img alt="Twitter" src="https://img.shields.io/badge/Made with lua-89b4fa.svg?style=for-the-badge&logo=Lua&logoColor=white">
+<img alt="Badge" src="https://img.shields.io/badge/Made with lua-89b4fa.svg?style=for-the-badge&logo=Lua&logoColor=white">
 </p>
